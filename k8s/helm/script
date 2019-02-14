@@ -1,0 +1,3 @@
+#!/bin/bash
+ls -d > abc.txt
+helm install `abc.txt`
