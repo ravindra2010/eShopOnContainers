@@ -1,4 +1,4 @@
 #!/bin/bash
 ls -d > abc.txt
 helm dep up
-helm install `abc.txt`
+helm install `cat abc.txt`
